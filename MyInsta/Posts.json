@@ -1,0 +1,224 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": "john_doe",
+      "caption": "Beautiful scenery!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-1899836013-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        }
+      ],
+      "likes": 150,
+      "comments": [
+        {"user": "alice_92", "text": "Amazing view!"},
+        {"user": "mark_t", "text": "Where is this?"}
+      ]
+    },
+    {
+      "id": "2",
+      "user": "travel_lover",
+      "caption": "Epic adventure!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/13280169_960_540_25fps.mp4",
+          "type": "video",
+          "resolution": "960x540"
+        }
+      ],
+      "likes": 220,
+      "comments": [
+        {"user": "jake_smith", "text": "Wow, stunning!"},
+        {"user": "sara_w", "text": "Love this clip!"}
+      ]
+    },
+    {
+      "id": "3",
+      "user": "explorer",
+      "caption": "Sunset vibes!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2031340689-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2062823466-640_adpp_is.mp4",
+          "type": "video",
+          "resolution": "640x360"
+        }
+      ],
+      "likes": 340,
+      "comments": [
+        {"user": "emma_r", "text": "Perfect shot!"},
+        {"user": "lucas_g", "text": "Love the colors!"}
+      ]
+    },
+    {
+      "id": "4",
+      "user": "foodie_girl",
+      "caption": "Delicious meal!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2130313924-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2119732310-640_adpp_is.mp4",
+          "type": "video",
+          "resolution": "640x360"
+        }
+      ],
+      "likes": 180,
+      "comments": [
+        {"user": "michael_king", "text": "Yummy!"},
+        {"user": "anna_b", "text": "I need this recipe!"}
+      ]
+    },
+    {
+      "id": "5",
+      "user": "nature_enthusiast",
+      "caption": "A walk in the wild!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2154332662-640_adpp_is.mp4",
+          "type": "video",
+          "resolution": "640x360"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2162033406-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        }
+      ],
+      "likes": 275,
+      "comments": [
+        {"user": "ryan_m", "text": "Breathtaking!"},
+        {"user": "julia_w", "text": "Nature is healing!"}
+      ]
+    },
+    {
+      "id": "6",
+      "user": "adventurer",
+      "caption": "Exploring the unknown!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2154872940-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2155734323-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2155960411-640_adpp_is.mp4",
+          "type": "video",
+          "resolution": "640x360"
+        }
+      ],
+      "likes": 300,
+      "comments": [
+        {"user": "chris_p", "text": "Incredible journey!"},
+        {"user": "lisa_m", "text": "Can't wait to see more!"}
+      ]
+    },
+    {
+      "id": "7",
+      "user": "city_explorer",
+      "caption": "City lights!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2156942049-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2157702110-640_adpp_is.mp4",
+          "type": "video",
+          "resolution": "640x360"
+        }
+      ],
+      "likes": 250,
+      "comments": [
+        {"user": "mike_t", "text": "Stunning view!"},
+        {"user": "sophia_r", "text": "Love the city vibe!"}
+      ]
+    },
+    {
+      "id": "8",
+      "user": "wildlife_photographer",
+      "caption": "In the wild!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2161147879-640_adpp_is.mp4",
+          "type": "video",
+          "resolution": "640x360"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2165462299-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        }
+      ],
+      "likes": 290,
+      "comments": [
+        {"user": "david_l", "text": "Amazing capture!"},
+        {"user": "emily_w", "text": "Nature at its best!"}
+      ]
+    },
+    {
+      "id": "9",
+      "user": "landscape_lover",
+      "caption": "Mountain peaks!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2165538486-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2166802703-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        }
+      ],
+      "likes": 310,
+      "comments": [
+        {"user": "oliver_t", "text": "Breathtaking view!"},
+        {"user": "ava_m", "text": "I want to go there!"}
+      ]
+    },
+    {
+      "id": "10",
+      "user": "ocean_lover",
+      "caption": "Ocean waves!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2168127476-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2168171039-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        },
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-2170889984-1024x1024.jpg",
+          "type": "image",
+          "resolution": "1024x1024"
+        }
+      ],
+      "likes": 320,
+      "comments": [
+        {"user": "noah_s", "text": "So peaceful!"},
+        {"user": "mia_r", "text": "Love the ocean!"}
+      ]
+    }
+  ]
+}

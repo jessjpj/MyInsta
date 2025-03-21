@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
+		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
+		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
+		D5A2D9792D8DEB76000F5DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9782D8DEB76000F5DA9 /* ContentView.swift */; };
+		D5A2D97B2D8DEB77000F5DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A2D97A2D8DEB77000F5DA9 /* Assets.xcassets */; };
+		D5A2D97F2D8DEB77000F5DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A2D97E2D8DEB77000F5DA9 /* Preview Assets.xcassets */; };
+		D5A2D9892D8DEB77000F5DA9 /* MyInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9882D8DEB77000F5DA9 /* MyInstaTests.swift */; };
+		D5A2D9932D8DEB77000F5DA9 /* MyInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9922D8DEB77000F5DA9 /* MyInstaUITests.swift */; };
+		D5A2D9952D8DEB77000F5DA9 /* MyInstaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9942D8DEB77000F5DA9 /* MyInstaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A2D9852D8DEB77000F5DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A2D9662D8DEB76000F5DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A2D96D2D8DEB76000F5DA9;
+			remoteInfo = MyInsta;
+		};
+		D5A2D98F2D8DEB77000F5DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A2D9662D8DEB76000F5DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A2D96D2D8DEB76000F5DA9;
+			remoteInfo = MyInsta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaApp.swift; sourceTree = "<group>"; };
+		D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D5A2D9762D8DEB76000F5DA9 /* MyInsta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyInsta.xcdatamodel; sourceTree = "<group>"; };
+		D5A2D9782D8DEB76000F5DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5A2D97A2D8DEB77000F5DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A2D97C2D8DEB77000F5DA9 /* MyInsta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyInsta.entitlements; sourceTree = "<group>"; };
+		D5A2D97E2D8DEB77000F5DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5A2D9842D8DEB77000F5DA9 /* MyInstaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInstaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A2D9882D8DEB77000F5DA9 /* MyInstaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaTests.swift; sourceTree = "<group>"; };
+		D5A2D98E2D8DEB77000F5DA9 /* MyInstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A2D9922D8DEB77000F5DA9 /* MyInstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaUITests.swift; sourceTree = "<group>"; };
+		D5A2D9942D8DEB77000F5DA9 /* MyInstaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A2D96B2D8DEB76000F5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2D9812D8DEB77000F5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2D98B2D8DEB77000F5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A2D9652D8DEB76000F5DA9 = {
+			isa = PBXGroup;
+			children = (
+				D5A2D9702D8DEB76000F5DA9 /* MyInsta */,
+				D5A2D9872D8DEB77000F5DA9 /* MyInstaTests */,
+				D5A2D9912D8DEB77000F5DA9 /* MyInstaUITests */,
+				D5A2D96F2D8DEB76000F5DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A2D96F2D8DEB76000F5DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */,
+				D5A2D9842D8DEB77000F5DA9 /* MyInstaTests.xctest */,
+				D5A2D98E2D8DEB77000F5DA9 /* MyInstaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A2D9702D8DEB76000F5DA9 /* MyInsta */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */,
+				D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */,
+				D5A2D9782D8DEB76000F5DA9 /* ContentView.swift */,
+				D5A2D97A2D8DEB77000F5DA9 /* Assets.xcassets */,
+				D5A2D97C2D8DEB77000F5DA9 /* MyInsta.entitlements */,
+				D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */,
+				D5A2D97D2D8DEB77000F5DA9 /* Preview Content */,
+			);
+			path = MyInsta;
+			sourceTree = "<group>";
+		};
+		D5A2D97D2D8DEB77000F5DA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2D97E2D8DEB77000F5DA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5A2D9872D8DEB77000F5DA9 /* MyInstaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2D9882D8DEB77000F5DA9 /* MyInstaTests.swift */,
+			);
+			path = MyInstaTests;
+			sourceTree = "<group>";
+		};
+		D5A2D9912D8DEB77000F5DA9 /* MyInstaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2D9922D8DEB77000F5DA9 /* MyInstaUITests.swift */,
+				D5A2D9942D8DEB77000F5DA9 /* MyInstaUITestsLaunchTests.swift */,
+			);
+			path = MyInstaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A2D96D2D8DEB76000F5DA9 /* MyInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A2D9982D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInsta" */;
+			buildPhases = (
+				D5A2D96A2D8DEB76000F5DA9 /* Sources */,
+				D5A2D96B2D8DEB76000F5DA9 /* Frameworks */,
+				D5A2D96C2D8DEB76000F5DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyInsta;
+			productName = MyInsta;
+			productReference = D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A2D9832D8DEB77000F5DA9 /* MyInstaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A2D99B2D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInstaTests" */;
+			buildPhases = (
+				D5A2D9802D8DEB77000F5DA9 /* Sources */,
+				D5A2D9812D8DEB77000F5DA9 /* Frameworks */,
+				D5A2D9822D8DEB77000F5DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A2D9862D8DEB77000F5DA9 /* PBXTargetDependency */,
+			);
+			name = MyInstaTests;
+			productName = MyInstaTests;
+			productReference = D5A2D9842D8DEB77000F5DA9 /* MyInstaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5A2D98D2D8DEB77000F5DA9 /* MyInstaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A2D99E2D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInstaUITests" */;
+			buildPhases = (
+				D5A2D98A2D8DEB77000F5DA9 /* Sources */,
+				D5A2D98B2D8DEB77000F5DA9 /* Frameworks */,
+				D5A2D98C2D8DEB77000F5DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A2D9902D8DEB77000F5DA9 /* PBXTargetDependency */,
+			);
+			name = MyInstaUITests;
+			productName = MyInstaUITests;
+			productReference = D5A2D98E2D8DEB77000F5DA9 /* MyInstaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A2D9662D8DEB76000F5DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D5A2D96D2D8DEB76000F5DA9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D5A2D9832D8DEB77000F5DA9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5A2D96D2D8DEB76000F5DA9;
+					};
+					D5A2D98D2D8DEB77000F5DA9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5A2D96D2D8DEB76000F5DA9;
+					};
+				};
+			};
+			buildConfigurationList = D5A2D9692D8DEB76000F5DA9 /* Build configuration list for PBXProject "MyInsta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A2D9652D8DEB76000F5DA9;
+			productRefGroup = D5A2D96F2D8DEB76000F5DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A2D96D2D8DEB76000F5DA9 /* MyInsta */,
+				D5A2D9832D8DEB77000F5DA9 /* MyInstaTests */,
+				D5A2D98D2D8DEB77000F5DA9 /* MyInstaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A2D96C2D8DEB76000F5DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2D97F2D8DEB77000F5DA9 /* Preview Assets.xcassets in Resources */,
+				D5A2D97B2D8DEB77000F5DA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2D9822D8DEB77000F5DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2D98C2D8DEB77000F5DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A2D96A2D8DEB76000F5DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */,
+				D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */,
+				D5A2D9792D8DEB76000F5DA9 /* ContentView.swift in Sources */,
+				D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2D9802D8DEB77000F5DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2D9892D8DEB77000F5DA9 /* MyInstaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2D98A2D8DEB77000F5DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2D9952D8DEB77000F5DA9 /* MyInstaUITestsLaunchTests.swift in Sources */,
+				D5A2D9932D8DEB77000F5DA9 /* MyInstaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A2D9862D8DEB77000F5DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A2D96D2D8DEB76000F5DA9 /* MyInsta */;
+			targetProxy = D5A2D9852D8DEB77000F5DA9 /* PBXContainerItemProxy */;
+		};
+		D5A2D9902D8DEB77000F5DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A2D96D2D8DEB76000F5DA9 /* MyInsta */;
+			targetProxy = D5A2D98F2D8DEB77000F5DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5A2D9962D8DEB77000F5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5A2D9972D8DEB77000F5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D5A2D9992D8DEB77000F5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyInsta/MyInsta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyInsta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A2D99A2D8DEB77000F5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyInsta/MyInsta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyInsta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5A2D99C2D8DEB77000F5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyInsta";
+			};
+			name = Debug;
+		};
+		D5A2D99D2D8DEB77000F5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyInsta";
+			};
+			name = Release;
+		};
+		D5A2D99F2D8DEB77000F5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyInsta;
+			};
+			name = Debug;
+		};
+		D5A2D9A02D8DEB77000F5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyInsta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A2D9692D8DEB76000F5DA9 /* Build configuration list for PBXProject "MyInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2D9962D8DEB77000F5DA9 /* Debug */,
+				D5A2D9972D8DEB77000F5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A2D9982D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2D9992D8DEB77000F5DA9 /* Debug */,
+				D5A2D99A2D8DEB77000F5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A2D99B2D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInstaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2D99C2D8DEB77000F5DA9 /* Debug */,
+				D5A2D99D2D8DEB77000F5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A2D99E2D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInstaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2D99F2D8DEB77000F5DA9 /* Debug */,
+				D5A2D9A02D8DEB77000F5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5A2D9762D8DEB76000F5DA9 /* MyInsta.xcdatamodel */,
+			);
+			currentVersion = D5A2D9762D8DEB76000F5DA9 /* MyInsta.xcdatamodel */;
+			path = MyInsta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5A2D9662D8DEB76000F5DA9 /* Project object */;
+}

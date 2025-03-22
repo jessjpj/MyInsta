@@ -29,6 +29,17 @@
 		D58970042D8E9446008E960A /* MIVideoCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970032D8E9446008E960A /* MIVideoCacheService.swift */; };
 		D58970072D8E9540008E960A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D58970062D8E9540008E960A /* SDWebImageSwiftUI */; };
 		D58970092D8E96C5008E960A /* MIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970082D8E96C5008E960A /* MIConstants.swift */; };
+		D589700B2D8E9BC4008E960A /* MIProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589700A2D8E9BC4008E960A /* MIProfilePicture.swift */; };
+		D589700D2D8E9BF7008E960A /* MILikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589700C2D8E9BF7008E960A /* MILikeButton.swift */; };
+		D589700F2D8E9C7F008E960A /* MICommentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589700E2D8E9C7F008E960A /* MICommentButton.swift */; };
+		D58970112D8E9CB4008E960A /* MIMediaPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970102D8E9CB4008E960A /* MIMediaPaginator.swift */; };
+		D58970132D8E9CEC008E960A /* MIMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970122D8E9CEC008E960A /* MIMediaView.swift */; };
+		D58970152D8E9D1C008E960A /* MIVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970142D8E9D1C008E960A /* MIVideoPlayerView.swift */; };
+		D58970172D8EA043008E960A /* MIPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970162D8EA043008E960A /* MIPostView.swift */; };
+		D58970192D8EA399008E960A /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970182D8EA399008E960A /* Int+Extension.swift */; };
+		D589701C2D8EA3E4008E960A /* MIMediaUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589701B2D8EA3E4008E960A /* MIMediaUtility.swift */; };
+		D589701E2D8EA7B0008E960A /* MIPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589701D2D8EA7B0008E960A /* MIPostViewModel.swift */; };
+		D58970202D8EF3D2008E960A /* MIUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589701F2D8EF3D2008E960A /* MIUserModel.swift */; };
 		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
 		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
 		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
@@ -73,6 +84,17 @@
 		D58970012D8E939D008E960A /* MIThumbnailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIThumbnailService.swift; sourceTree = "<group>"; };
 		D58970032D8E9446008E960A /* MIVideoCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIVideoCacheService.swift; sourceTree = "<group>"; };
 		D58970082D8E96C5008E960A /* MIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIConstants.swift; sourceTree = "<group>"; };
+		D589700A2D8E9BC4008E960A /* MIProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIProfilePicture.swift; sourceTree = "<group>"; };
+		D589700C2D8E9BF7008E960A /* MILikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILikeButton.swift; sourceTree = "<group>"; };
+		D589700E2D8E9C7F008E960A /* MICommentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICommentButton.swift; sourceTree = "<group>"; };
+		D58970102D8E9CB4008E960A /* MIMediaPaginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMediaPaginator.swift; sourceTree = "<group>"; };
+		D58970122D8E9CEC008E960A /* MIMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMediaView.swift; sourceTree = "<group>"; };
+		D58970142D8E9D1C008E960A /* MIVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIVideoPlayerView.swift; sourceTree = "<group>"; };
+		D58970162D8EA043008E960A /* MIPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIPostView.swift; sourceTree = "<group>"; };
+		D58970182D8EA399008E960A /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		D589701B2D8EA3E4008E960A /* MIMediaUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMediaUtility.swift; sourceTree = "<group>"; };
+		D589701D2D8EA7B0008E960A /* MIPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIPostViewModel.swift; sourceTree = "<group>"; };
+		D589701F2D8EF3D2008E960A /* MIUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIUserModel.swift; sourceTree = "<group>"; };
 		D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaApp.swift; sourceTree = "<group>"; };
 		D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -136,6 +158,7 @@
 				D51B02492D8DF4EF00C0F50B /* MIPostModel.swift */,
 				D51B024B2D8DF50F00C0F50B /* MIMediaModel.swift */,
 				D51B024D2D8DF53000C0F50B /* MICommentModel.swift */,
+				D589701F2D8EF3D2008E960A /* MIUserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +181,7 @@
 				D58970012D8E939D008E960A /* MIThumbnailService.swift */,
 				D58970032D8E9446008E960A /* MIVideoCacheService.swift */,
 				D58970082D8E96C5008E960A /* MIConstants.swift */,
+				D589701B2D8EA3E4008E960A /* MIMediaUtility.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -166,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				D5896FFF2D8E017A008E960A /* MIPostsViewModel.swift */,
+				D589701D2D8EA7B0008E960A /* MIPostViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -174,8 +199,23 @@
 			isa = PBXGroup;
 			children = (
 				D5A2D9782D8DEB76000F5DA9 /* ContentView.swift */,
+				D58970162D8EA043008E960A /* MIPostView.swift */,
+				D589700A2D8E9BC4008E960A /* MIProfilePicture.swift */,
+				D589700C2D8E9BF7008E960A /* MILikeButton.swift */,
+				D589700E2D8E9C7F008E960A /* MICommentButton.swift */,
+				D58970102D8E9CB4008E960A /* MIMediaPaginator.swift */,
+				D58970122D8E9CEC008E960A /* MIMediaView.swift */,
+				D58970142D8E9D1C008E960A /* MIVideoPlayerView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D589701A2D8EA3B1008E960A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D58970182D8EA399008E960A /* Int+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D5A2D9652D8DEB76000F5DA9 = {
@@ -210,6 +250,7 @@
 				D51B02522D8DF5B900C0F50B /* Network */,
 				D51B02592D8DF81700C0F50B /* Utilities */,
 				D5A2D97A2D8DEB77000F5DA9 /* Assets.xcassets */,
+				D589701A2D8EA3B1008E960A /* Extensions */,
 				D5A2D97C2D8DEB77000F5DA9 /* MyInsta.entitlements */,
 				D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */,
 				D51B02472D8DF45600C0F50B /* GoogleService-Info.plist */,
@@ -391,14 +432,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D58970022D8E939D008E960A /* MIThumbnailService.swift in Sources */,
+				D589700D2D8E9BF7008E960A /* MILikeButton.swift in Sources */,
+				D58970172D8EA043008E960A /* MIPostView.swift in Sources */,
 				D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */,
+				D58970152D8E9D1C008E960A /* MIVideoPlayerView.swift in Sources */,
 				D58970092D8E96C5008E960A /* MIConstants.swift in Sources */,
 				D51B024E2D8DF53000C0F50B /* MICommentModel.swift in Sources */,
+				D589700F2D8E9C7F008E960A /* MICommentButton.swift in Sources */,
+				D58970112D8E9CB4008E960A /* MIMediaPaginator.swift in Sources */,
+				D589701C2D8EA3E4008E960A /* MIMediaUtility.swift in Sources */,
 				D51B024C2D8DF50F00C0F50B /* MIMediaModel.swift in Sources */,
+				D58970192D8EA399008E960A /* Int+Extension.swift in Sources */,
 				D5896FFA2D8DFF82008E960A /* MIDataService.swift in Sources */,
 				D51B02512D8DF5AE00C0F50B /* MIFirebaseUploader.swift in Sources */,
 				D58970042D8E9446008E960A /* MIVideoCacheService.swift in Sources */,
+				D589700B2D8E9BC4008E960A /* MIProfilePicture.swift in Sources */,
 				D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */,
+				D589701E2D8EA7B0008E960A /* MIPostViewModel.swift in Sources */,
+				D58970202D8EF3D2008E960A /* MIUserModel.swift in Sources */,
 				D5A2D9792D8DEB76000F5DA9 /* ContentView.swift in Sources */,
 				D58970002D8E017A008E960A /* MIPostsViewModel.swift in Sources */,
 				D51B024A2D8DF4EF00C0F50B /* MIPostModel.swift in Sources */,
@@ -407,6 +458,7 @@
 				D5A2D9A22D8DEC80000F5DA9 /* AppDelegate.swift in Sources */,
 				D51B02582D8DF80800C0F50B /* MIJSONLoader.swift in Sources */,
 				D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */,
+				D58970132D8E9CEC008E960A /* MIMediaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

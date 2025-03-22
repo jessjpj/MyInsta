@@ -11,6 +11,16 @@ struct MIConstants {
     static let padding: CGFloat = 16
     static let smallPadding: CGFloat = 8
     static let cornerRadius: CGFloat = 12
+    static let shadowRadius: CGFloat = 5
+    static let mediaAspectRatio: CGFloat = 300
+    static let descriptionLineLimit: Int = 2
+    static let descriptionCharacterLimit: Int = 100
+    static let moreText = "...more"
+    static let appName = "Instagram Clone"
+    static let loadingText = "Loading posts..."
+    static let errorTitle = "Error"
+    static let okButtonText = "OK"
+    static let unknownError = "An unknown error occurred."
     
     struct Colors {
         static let primary = Color.primary
@@ -20,6 +30,7 @@ struct MIConstants {
         static let commentButton = Color.blue
         static let gray = Color.gray
         static let blackOpacity = Color.black.opacity(0.5)
+        static let backgroundOpacity = Color(.systemBackground).opacity(0.8)
     }
     
     struct Fonts {
@@ -44,6 +55,7 @@ struct MIConstants {
     struct Media {
         static let image = "image"
         static let video = "video"
+        static let defaultResolution = "1024x1024"
     }
     
     struct Counts {

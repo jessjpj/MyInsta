@@ -11,29 +11,40 @@ struct ContentView: View {
     @StateObject var viewModel: MIPostsViewModel
     
     init() {
-        let service: MIDataService = MIFirestoreService() // Switch this to JSONService() for offline mode
+        let service: MIDataService = MIFirestoreService() // Switch to JSONService() for offline mode
         _viewModel = StateObject(wrappedValue: MIPostsViewModel(dataService: service))
     }
     
     var body: some View {
-        VStack {
-            if viewModel.isLoading {
-                ProgressView("Loading posts...")
-                    .padding()
-            } else if let errorMessage = viewModel.errorMessage {
-                Text("Error: \(errorMessage)")
-                    .foregroundColor(.red)
-                    .padding()
-            } else if viewModel.isLoaded {
-                List(viewModel.posts) { post in
-                    Text(post.caption)
+        NavigationView {
+            ScrollView {
+                LazyVStack(spacing: MIConstants.padding) {
+                    ForEach(viewModel.posts) { post in
+                        MIPostView(post: post)
+                    }
                 }
-            } else {
-                Text("No posts available.")
-                    .foregroundColor(.gray)
-                    .padding()
+                .padding(.horizontal, MIConstants.padding)
+            }
+            .refreshable {
+                await viewModel.fetchPosts()
+            }
+            .navigationTitle(MIConstants.appName)
+            .navigationBarTitleDisplayMode(.inline)
+            .overlay(
+                Group {
+                    if viewModel.isLoading {
+                        ProgressView(MIConstants.loadingText)
+                            .padding()
+                            .background(MIConstants.Colors.backgroundOpacity)
+                            .cornerRadius(MIConstants.cornerRadius)
+                    }
+                }
+            )
+            .alert(MIConstants.errorTitle, isPresented: .constant(viewModel.errorMessage != nil)) {
+                Button(MIConstants.okButtonText, role: .cancel) { }
+            } message: {
+                Text(viewModel.errorMessage ?? MIConstants.unknownError)
             }
         }
-        .navigationTitle("Posts")
     }
 }

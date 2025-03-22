@@ -2,25 +2,12 @@
   "posts": [
     {
       "id": "1",
-      "user": "john_doe",
+      "user": {
+        "id": "1",
+        "name": "alice_92",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-a-darmel-7322232.jpg"
+      },
       "caption": "Beautiful scenery!",
-      "media": [
-        {
-          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/istockphoto-1899836013-1024x1024.jpg",
-          "type": "image",
-          "resolution": "1024x1024"
-        }
-      ],
-      "likes": 150,
-      "comments": [
-        {"user": "alice_92", "text": "Amazing view!"},
-        {"user": "mark_t", "text": "Where is this?"}
-      ]
-    },
-    {
-      "id": "2",
-      "user": "travel_lover",
-      "caption": "Epic adventure!",
       "media": [
         {
           "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/13280169_960_540_25fps.mp4",
@@ -28,15 +15,68 @@
           "resolution": "960x540"
         }
       ],
+      "likes": 150,
+      "comments": [
+        {
+          "user": {
+            "id": "1",
+            "name": "alice_92",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-a-darmel-7322232.jpg"
+          },
+          "text": "Amazing view!"
+        },
+        {
+          "user": {
+            "id": "2",
+            "name": "mark_t",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-alohaphotostudio-4890259.jpg"
+          },
+          "text": "Where is this?"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "3",
+        "name": "travel_lover",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-anastasia-shuraeva-5704849.jpg"
+      },
+      "caption": "Epic adventure!",
+      "media": [
+        {
+          "url": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/236316_small.mp4",
+          "type": "video",
+          "resolution": "960x540"
+        }
+      ],
       "likes": 220,
       "comments": [
-        {"user": "jake_smith", "text": "Wow, stunning!"},
-        {"user": "sara_w", "text": "Love this clip!"}
+        {
+          "user": {
+            "id": "4",
+            "name": "jake_smith",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-anastasia-shuraeva-6608313.jpg"
+          },
+          "text": "Wow, stunning!"
+        },
+        {
+          "user": {
+            "id": "5",
+            "name": "sara_w",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-arthousestudio-4571943.jpg"
+          },
+          "text": "Love this clip!"
+        }
       ]
     },
     {
       "id": "3",
-      "user": "explorer",
+      "user": {
+        "id": "6",
+        "name": "explorer",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-arthousestudio-4640886.jpg"
+      },
       "caption": "Sunset vibes!",
       "media": [
         {
@@ -52,13 +92,31 @@
       ],
       "likes": 340,
       "comments": [
-        {"user": "emma_r", "text": "Perfect shot!"},
-        {"user": "lucas_g", "text": "Love the colors!"}
+        {
+          "user": {
+            "id": "7",
+            "name": "emma_r",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-darina-belonogova-7897152.jpg"
+          },
+          "text": "Perfect shot!"
+        },
+        {
+          "user": {
+            "id": "8",
+            "name": "lucas_g",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-darina-belonogova-7897404.jpg"
+          },
+          "text": "Love the colors!"
+        }
       ]
     },
     {
       "id": "4",
-      "user": "foodie_girl",
+      "user": {
+        "id": "9",
+        "name": "foodie_girl",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-guilhermealmeida-1858175.jpg"
+      },
       "caption": "Delicious meal!",
       "media": [
         {
@@ -74,13 +132,31 @@
       ],
       "likes": 180,
       "comments": [
-        {"user": "michael_king", "text": "Yummy!"},
-        {"user": "anna_b", "text": "I need this recipe!"}
+        {
+          "user": {
+            "id": "10",
+            "name": "michael_king",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-iamikeee-2709388.jpg"
+          },
+          "text": "Yummy!"
+        },
+        {
+          "user": {
+            "id": "11",
+            "name": "anna_b",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-julia-volk-5270669.jpg"
+          },
+          "text": "I need this recipe!"
+        }
       ]
     },
     {
       "id": "5",
-      "user": "nature_enthusiast",
+      "user": {
+        "id": "12",
+        "name": "nature_enthusiast",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-karleykosmos-4902634.jpg"
+      },
       "caption": "A walk in the wild!",
       "media": [
         {
@@ -96,13 +172,31 @@
       ],
       "likes": 275,
       "comments": [
-        {"user": "ryan_m", "text": "Breathtaking!"},
-        {"user": "julia_w", "text": "Nature is healing!"}
+        {
+          "user": {
+            "id": "13",
+            "name": "ryan_m",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-ketut-subiyanto-4350178.jpg"
+          },
+          "text": "Breathtaking!"
+        },
+        {
+          "user": {
+            "id": "14",
+            "name": "julia_w",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-leeloothefirst-4542178.jpg"
+          },
+          "text": "Nature is healing!"
+        }
       ]
     },
     {
       "id": "6",
-      "user": "adventurer",
+      "user": {
+        "id": "15",
+        "name": "adventurer",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-picturesbyamusan-7204273.jpg"
+      },
       "caption": "Exploring the unknown!",
       "media": [
         {
@@ -123,13 +217,31 @@
       ],
       "likes": 300,
       "comments": [
-        {"user": "chris_p", "text": "Incredible journey!"},
-        {"user": "lisa_m", "text": "Can't wait to see more!"}
+        {
+          "user": {
+            "id": "16",
+            "name": "chris_p",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-rdne-7402883.jpg"
+          },
+          "text": "Incredible journey!"
+        },
+        {
+          "user": {
+            "id": "17",
+            "name": "lisa_m",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-ron-lach-8159657.jpg"
+          },
+          "text": "Can't wait to see more!"
+        }
       ]
     },
     {
       "id": "7",
-      "user": "city_explorer",
+      "user": {
+        "id": "18",
+        "name": "city_explorer",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-sinileunen-6652928.jpg"
+      },
       "caption": "City lights!",
       "media": [
         {
@@ -145,13 +257,31 @@
       ],
       "likes": 250,
       "comments": [
-        {"user": "mike_t", "text": "Stunning view!"},
-        {"user": "sophia_r", "text": "Love the city vibe!"}
+        {
+          "user": {
+            "id": "19",
+            "name": "mike_t",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-sinileunen-6652959.jpg"
+          },
+          "text": "Stunning view!"
+        },
+        {
+          "user": {
+            "id": "20",
+            "name": "sophia_r",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-vazhnik-7562313.jpg"
+          },
+          "text": "Love the city vibe!"
+        }
       ]
     },
     {
       "id": "8",
-      "user": "wildlife_photographer",
+      "user": {
+        "id": "1",
+        "name": "wildlife_photographer",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-a-darmel-7322232.jpg"
+      },
       "caption": "In the wild!",
       "media": [
         {
@@ -167,13 +297,31 @@
       ],
       "likes": 290,
       "comments": [
-        {"user": "david_l", "text": "Amazing capture!"},
-        {"user": "emily_w", "text": "Nature at its best!"}
+        {
+          "user": {
+            "id": "2",
+            "name": "david_l",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-alohaphotostudio-4890259.jpg"
+          },
+          "text": "Amazing capture!"
+        },
+        {
+          "user": {
+            "id": "3",
+            "name": "emily_w",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-anastasia-shuraeva-5704849.jpg"
+          },
+          "text": "Nature at its best!"
+        }
       ]
     },
     {
       "id": "9",
-      "user": "landscape_lover",
+      "user": {
+        "id": "4",
+        "name": "landscape_lover",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-anastasia-shuraeva-6608313.jpg"
+      },
       "caption": "Mountain peaks!",
       "media": [
         {
@@ -189,13 +337,31 @@
       ],
       "likes": 310,
       "comments": [
-        {"user": "oliver_t", "text": "Breathtaking view!"},
-        {"user": "ava_m", "text": "I want to go there!"}
+        {
+          "user": {
+            "id": "5",
+            "name": "oliver_t",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-arthousestudio-4571943.jpg"
+          },
+          "text": "Breathtaking view!"
+        },
+        {
+          "user": {
+            "id": "6",
+            "name": "ava_m",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-arthousestudio-4640886.jpg"
+          },
+          "text": "I want to go there!"
+        }
       ]
     },
     {
       "id": "10",
-      "user": "ocean_lover",
+      "user": {
+        "id": "7",
+        "name": "ocean_lover",
+        "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-darina-belonogova-7897152.jpg"
+      },
       "caption": "Ocean waves!",
       "media": [
         {
@@ -216,8 +382,22 @@
       ],
       "likes": 320,
       "comments": [
-        {"user": "noah_s", "text": "So peaceful!"},
-        {"user": "mia_r", "text": "Love the ocean!"}
+        {
+          "user": {
+            "id": "8",
+            "name": "noah_s",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-darina-belonogova-7897404.jpg"
+          },
+          "text": "So peaceful!"
+        },
+        {
+          "user": {
+            "id": "9",
+            "name": "mia_r",
+            "avatarThumb": "https://storage.googleapis.com/myinsta-6fc59.firebasestorage.app/ProfilePics/pexels-guilhermealmeida-1858175.jpg"
+          },
+          "text": "Love the ocean!"
+        }
       ]
     }
   ]

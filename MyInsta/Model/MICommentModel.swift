@@ -8,6 +8,6 @@
 import Foundation
 
 struct MIComment: Codable {
-    let user: String
+    let user: MIUser
     let text: String
 }

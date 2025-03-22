@@ -13,9 +13,9 @@ struct MIPostsContainer: Codable {
 
 struct MIPost: Codable, Identifiable {
     let id: String
-    let user: String
+    let user: MIUser
     let caption: String
     let media: [MIMedia]
-    let likes: Int
+    var likes: Int
     let comments: [MIComment]
 }

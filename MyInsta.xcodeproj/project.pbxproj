@@ -47,6 +47,7 @@
 		D58970322D8F4FCB008E960A /* MICacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970312D8F4FCB008E960A /* MICacheManager.swift */; };
 		D58970342D8F51E1008E960A /* MICacheManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */; };
 		D58970362D8F52A2008E960A /* MIMockCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970352D8F52A2008E960A /* MIMockCacheManager.swift */; };
+		D58970382D8F5A22008E960A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58970372D8F5A22008E960A /* Launch Screen.storyboard */; };
 		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
 		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
 		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
@@ -109,6 +110,7 @@
 		D58970312D8F4FCB008E960A /* MICacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICacheManager.swift; sourceTree = "<group>"; };
 		D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICacheManagerProtocol.swift; sourceTree = "<group>"; };
 		D58970352D8F52A2008E960A /* MIMockCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMockCacheManager.swift; sourceTree = "<group>"; };
+		D58970372D8F5A22008E960A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaApp.swift; sourceTree = "<group>"; };
 		D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 			children = (
 				D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */,
 				D5A2D9A12D8DEC80000F5DA9 /* AppDelegate.swift */,
+				D58970372D8F5A22008E960A /* Launch Screen.storyboard */,
 				D51B02462D8DF42900C0F50B /* DB */,
 				D51B024F2D8DF57D00C0F50B /* Model */,
 				D5896FF82D8DFA83008E960A /* View */,
@@ -427,6 +430,7 @@
 				D5A2D97F2D8DEB77000F5DA9 /* Preview Assets.xcassets in Resources */,
 				D5A2D97B2D8DEB77000F5DA9 /* Assets.xcassets in Resources */,
 				D51B02482D8DF45600C0F50B /* GoogleService-Info.plist in Resources */,
+				D58970382D8F5A22008E960A /* Launch Screen.storyboard in Resources */,
 				D51B02562D8DF6C100C0F50B /* Posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,6 +607,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -736,6 +741,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -931,6 +937,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -967,6 +974,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";

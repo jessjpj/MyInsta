@@ -25,6 +25,8 @@
 		D5896FFC2D8DFFC0008E960A /* MIFireStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5896FFB2D8DFFC0008E960A /* MIFireStoreService.swift */; };
 		D5896FFE2D8E0032008E960A /* MIJSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5896FFD2D8E0032008E960A /* MIJSONService.swift */; };
 		D58970002D8E017A008E960A /* MIPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5896FFF2D8E017A008E960A /* MIPostsViewModel.swift */; };
+		D58970022D8E939D008E960A /* MIThumbnailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970012D8E939D008E960A /* MIThumbnailService.swift */; };
+		D58970042D8E9446008E960A /* MIVideoCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970032D8E9446008E960A /* MIVideoCacheService.swift */; };
 		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
 		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
 		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
@@ -66,6 +68,8 @@
 		D5896FFB2D8DFFC0008E960A /* MIFireStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIFireStoreService.swift; sourceTree = "<group>"; };
 		D5896FFD2D8E0032008E960A /* MIJSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIJSONService.swift; sourceTree = "<group>"; };
 		D5896FFF2D8E017A008E960A /* MIPostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIPostsViewModel.swift; sourceTree = "<group>"; };
+		D58970012D8E939D008E960A /* MIThumbnailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIThumbnailService.swift; sourceTree = "<group>"; };
+		D58970032D8E9446008E960A /* MIVideoCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIVideoCacheService.swift; sourceTree = "<group>"; };
 		D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaApp.swift; sourceTree = "<group>"; };
 		D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				D51B02572D8DF80800C0F50B /* MIJSONLoader.swift */,
+				D58970012D8E939D008E960A /* MIThumbnailService.swift */,
+				D58970032D8E9446008E960A /* MIVideoCacheService.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -377,11 +383,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58970022D8E939D008E960A /* MIThumbnailService.swift in Sources */,
 				D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */,
 				D51B024E2D8DF53000C0F50B /* MICommentModel.swift in Sources */,
 				D51B024C2D8DF50F00C0F50B /* MIMediaModel.swift in Sources */,
 				D5896FFA2D8DFF82008E960A /* MIDataService.swift in Sources */,
 				D51B02512D8DF5AE00C0F50B /* MIFirebaseUploader.swift in Sources */,
+				D58970042D8E9446008E960A /* MIVideoCacheService.swift in Sources */,
 				D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */,
 				D5A2D9792D8DEB76000F5DA9 /* ContentView.swift in Sources */,
 				D58970002D8E017A008E960A /* MIPostsViewModel.swift in Sources */,

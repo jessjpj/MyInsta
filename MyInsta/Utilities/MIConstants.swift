@@ -16,7 +16,7 @@ struct MIConstants {
     static let descriptionLineLimit: Int = 2
     static let descriptionCharacterLimit: Int = 100
     static let moreText = "...more"
-    static let appName = "Instagram Clone"
+    static let appName = "MyInsta"
     static let loadingText = "Loading posts..."
     static let errorTitle = "Error"
     static let okButtonText = "OK"
@@ -35,6 +35,7 @@ struct MIConstants {
     
     struct Fonts {
         static let title = Font.system(size: 18, weight: .bold)
+        static let titleItalic = Font.system(size: 18, weight: .bold).italic()
         static let body = Font.system(size: 14, weight: .regular)
         static let caption = Font.system(size: 12, weight: .light)
     }

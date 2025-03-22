@@ -14,7 +14,7 @@ struct MyInstaApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: nil, cacheManager: MICacheManager.shared)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

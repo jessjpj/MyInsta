@@ -40,6 +40,13 @@
 		D589701C2D8EA3E4008E960A /* MIMediaUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589701B2D8EA3E4008E960A /* MIMediaUtility.swift */; };
 		D589701E2D8EA7B0008E960A /* MIPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589701D2D8EA7B0008E960A /* MIPostViewModel.swift */; };
 		D58970202D8EF3D2008E960A /* MIUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589701F2D8EF3D2008E960A /* MIUserModel.swift */; };
+		D58970222D8F0E1C008E960A /* MIMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970212D8F0E1C008E960A /* MIMockDataService.swift */; };
+		D58970242D8F1E3C008E960A /* MIVideoPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970232D8F1E3C008E960A /* MIVideoPlayerManager.swift */; };
+		D58970262D8F22ED008E960A /* MICustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970252D8F22ED008E960A /* MICustomVideoPlayer.swift */; };
+		D58970282D8F48B2008E960A /* MIDataServiceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970272D8F48B2008E960A /* MIDataServiceSelector.swift */; };
+		D58970322D8F4FCB008E960A /* MICacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970312D8F4FCB008E960A /* MICacheManager.swift */; };
+		D58970342D8F51E1008E960A /* MICacheManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */; };
+		D58970362D8F52A2008E960A /* MIMockCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970352D8F52A2008E960A /* MIMockCacheManager.swift */; };
 		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
 		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
 		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
@@ -95,6 +102,13 @@
 		D589701B2D8EA3E4008E960A /* MIMediaUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMediaUtility.swift; sourceTree = "<group>"; };
 		D589701D2D8EA7B0008E960A /* MIPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIPostViewModel.swift; sourceTree = "<group>"; };
 		D589701F2D8EF3D2008E960A /* MIUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIUserModel.swift; sourceTree = "<group>"; };
+		D58970212D8F0E1C008E960A /* MIMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMockDataService.swift; sourceTree = "<group>"; };
+		D58970232D8F1E3C008E960A /* MIVideoPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIVideoPlayerManager.swift; sourceTree = "<group>"; };
+		D58970252D8F22ED008E960A /* MICustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICustomVideoPlayer.swift; sourceTree = "<group>"; };
+		D58970272D8F48B2008E960A /* MIDataServiceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDataServiceSelector.swift; sourceTree = "<group>"; };
+		D58970312D8F4FCB008E960A /* MICacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICacheManager.swift; sourceTree = "<group>"; };
+		D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICacheManagerProtocol.swift; sourceTree = "<group>"; };
+		D58970352D8F52A2008E960A /* MIMockCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMockCacheManager.swift; sourceTree = "<group>"; };
 		D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaApp.swift; sourceTree = "<group>"; };
 		D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -170,6 +184,8 @@
 				D5896FF92D8DFF82008E960A /* MIDataService.swift */,
 				D5896FFB2D8DFFC0008E960A /* MIFireStoreService.swift */,
 				D5896FFD2D8E0032008E960A /* MIJSONService.swift */,
+				D58970212D8F0E1C008E960A /* MIMockDataService.swift */,
+				D58970272D8F48B2008E960A /* MIDataServiceSelector.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -182,6 +198,11 @@
 				D58970032D8E9446008E960A /* MIVideoCacheService.swift */,
 				D58970082D8E96C5008E960A /* MIConstants.swift */,
 				D589701B2D8EA3E4008E960A /* MIMediaUtility.swift */,
+				D58970232D8F1E3C008E960A /* MIVideoPlayerManager.swift */,
+				D58970252D8F22ED008E960A /* MICustomVideoPlayer.swift */,
+				D58970312D8F4FCB008E960A /* MICacheManager.swift */,
+				D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */,
+				D58970352D8F52A2008E960A /* MIMockCacheManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -435,23 +456,30 @@
 				D589700D2D8E9BF7008E960A /* MILikeButton.swift in Sources */,
 				D58970172D8EA043008E960A /* MIPostView.swift in Sources */,
 				D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */,
+				D58970342D8F51E1008E960A /* MICacheManagerProtocol.swift in Sources */,
+				D58970362D8F52A2008E960A /* MIMockCacheManager.swift in Sources */,
 				D58970152D8E9D1C008E960A /* MIVideoPlayerView.swift in Sources */,
 				D58970092D8E96C5008E960A /* MIConstants.swift in Sources */,
 				D51B024E2D8DF53000C0F50B /* MICommentModel.swift in Sources */,
 				D589700F2D8E9C7F008E960A /* MICommentButton.swift in Sources */,
 				D58970112D8E9CB4008E960A /* MIMediaPaginator.swift in Sources */,
+				D58970222D8F0E1C008E960A /* MIMockDataService.swift in Sources */,
 				D589701C2D8EA3E4008E960A /* MIMediaUtility.swift in Sources */,
 				D51B024C2D8DF50F00C0F50B /* MIMediaModel.swift in Sources */,
 				D58970192D8EA399008E960A /* Int+Extension.swift in Sources */,
 				D5896FFA2D8DFF82008E960A /* MIDataService.swift in Sources */,
+				D58970242D8F1E3C008E960A /* MIVideoPlayerManager.swift in Sources */,
 				D51B02512D8DF5AE00C0F50B /* MIFirebaseUploader.swift in Sources */,
 				D58970042D8E9446008E960A /* MIVideoCacheService.swift in Sources */,
 				D589700B2D8E9BC4008E960A /* MIProfilePicture.swift in Sources */,
 				D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */,
 				D589701E2D8EA7B0008E960A /* MIPostViewModel.swift in Sources */,
+				D58970262D8F22ED008E960A /* MICustomVideoPlayer.swift in Sources */,
 				D58970202D8EF3D2008E960A /* MIUserModel.swift in Sources */,
+				D58970322D8F4FCB008E960A /* MICacheManager.swift in Sources */,
 				D5A2D9792D8DEB76000F5DA9 /* ContentView.swift in Sources */,
 				D58970002D8E017A008E960A /* MIPostsViewModel.swift in Sources */,
+				D58970282D8F48B2008E960A /* MIDataServiceSelector.swift in Sources */,
 				D51B024A2D8DF4EF00C0F50B /* MIPostModel.swift in Sources */,
 				D5896FFC2D8DFFC0008E960A /* MIFireStoreService.swift in Sources */,
 				D5896FFE2D8E0032008E960A /* MIJSONService.swift in Sources */,
@@ -495,7 +523,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D5A2D9962D8DEB77000F5DA9 /* Debug */ = {
+		D58970292D8F4C7A008E960A /* Debug MyInsta-Offline */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -551,12 +579,92 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DMIOFFLINE";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug MyInsta-Offline";
 		};
-		D5A2D9972D8DEB77000F5DA9 /* Release */ = {
+		D589702A2D8F4C7A008E960A /* Debug MyInsta-Offline */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyInsta/MyInsta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyInsta/Preview Content\"";
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug MyInsta-Offline";
+		};
+		D589702B2D8F4C7A008E960A /* Debug MyInsta-Offline */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyInsta";
+			};
+			name = "Debug MyInsta-Offline";
+		};
+		D589702C2D8F4C7A008E960A /* Debug MyInsta-Offline */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyInsta;
+			};
+			name = "Debug MyInsta-Offline";
+		};
+		D589702D2D8F4C8A008E960A /* Release MyInsta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -605,11 +713,12 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-DMI";
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
-			name = Release;
+			name = "Release MyInsta";
 		};
-		D5A2D9992D8DEB77000F5DA9 /* Debug */ = {
+		D589702E2D8F4C8A008E960A /* Release MyInsta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -643,9 +752,168 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Release MyInsta";
 		};
-		D5A2D99A2D8DEB77000F5DA9 /* Release */ = {
+		D589702F2D8F4C8A008E960A /* Release MyInsta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyInsta";
+			};
+			name = "Release MyInsta";
+		};
+		D58970302D8F4C8A008E960A /* Release MyInsta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyInsta;
+			};
+			name = "Release MyInsta";
+		};
+		D5A2D9962D8DEB77000F5DA9 /* Debug MyInsta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DMI";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug MyInsta";
+		};
+		D5A2D9972D8DEB77000F5DA9 /* Release MyInsta-Offline */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-DMIOFFLINE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = "Release MyInsta-Offline";
+		};
+		D5A2D9992D8DEB77000F5DA9 /* Debug MyInsta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -679,9 +947,45 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = "Debug MyInsta";
 		};
-		D5A2D99C2D8DEB77000F5DA9 /* Debug */ = {
+		D5A2D99A2D8DEB77000F5DA9 /* Release MyInsta-Offline */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyInsta/MyInsta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyInsta/Preview Content\"";
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jess.MyInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release MyInsta-Offline";
+		};
+		D5A2D99C2D8DEB77000F5DA9 /* Debug MyInsta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -701,9 +1005,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyInsta";
 			};
-			name = Debug;
+			name = "Debug MyInsta";
 		};
-		D5A2D99D2D8DEB77000F5DA9 /* Release */ = {
+		D5A2D99D2D8DEB77000F5DA9 /* Release MyInsta-Offline */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -723,9 +1027,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyInsta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyInsta";
 			};
-			name = Release;
+			name = "Release MyInsta-Offline";
 		};
-		D5A2D99F2D8DEB77000F5DA9 /* Debug */ = {
+		D5A2D99F2D8DEB77000F5DA9 /* Debug MyInsta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -744,9 +1048,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MyInsta;
 			};
-			name = Debug;
+			name = "Debug MyInsta";
 		};
-		D5A2D9A02D8DEB77000F5DA9 /* Release */ = {
+		D5A2D9A02D8DEB77000F5DA9 /* Release MyInsta-Offline */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -765,7 +1069,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MyInsta;
 			};
-			name = Release;
+			name = "Release MyInsta-Offline";
 		};
 /* End XCBuildConfiguration section */
 
@@ -773,38 +1077,46 @@
 		D5A2D9692D8DEB76000F5DA9 /* Build configuration list for PBXProject "MyInsta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5A2D9962D8DEB77000F5DA9 /* Debug */,
-				D5A2D9972D8DEB77000F5DA9 /* Release */,
+				D5A2D9962D8DEB77000F5DA9 /* Debug MyInsta */,
+				D58970292D8F4C7A008E960A /* Debug MyInsta-Offline */,
+				D5A2D9972D8DEB77000F5DA9 /* Release MyInsta-Offline */,
+				D589702D2D8F4C8A008E960A /* Release MyInsta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release MyInsta";
 		};
 		D5A2D9982D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInsta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5A2D9992D8DEB77000F5DA9 /* Debug */,
-				D5A2D99A2D8DEB77000F5DA9 /* Release */,
+				D5A2D9992D8DEB77000F5DA9 /* Debug MyInsta */,
+				D589702A2D8F4C7A008E960A /* Debug MyInsta-Offline */,
+				D5A2D99A2D8DEB77000F5DA9 /* Release MyInsta-Offline */,
+				D589702E2D8F4C8A008E960A /* Release MyInsta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release MyInsta";
 		};
 		D5A2D99B2D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInstaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5A2D99C2D8DEB77000F5DA9 /* Debug */,
-				D5A2D99D2D8DEB77000F5DA9 /* Release */,
+				D5A2D99C2D8DEB77000F5DA9 /* Debug MyInsta */,
+				D589702B2D8F4C7A008E960A /* Debug MyInsta-Offline */,
+				D5A2D99D2D8DEB77000F5DA9 /* Release MyInsta-Offline */,
+				D589702F2D8F4C8A008E960A /* Release MyInsta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release MyInsta";
 		};
 		D5A2D99E2D8DEB77000F5DA9 /* Build configuration list for PBXNativeTarget "MyInstaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5A2D99F2D8DEB77000F5DA9 /* Debug */,
-				D5A2D9A02D8DEB77000F5DA9 /* Release */,
+				D5A2D99F2D8DEB77000F5DA9 /* Debug MyInsta */,
+				D589702C2D8F4C7A008E960A /* Debug MyInsta-Offline */,
+				D5A2D9A02D8DEB77000F5DA9 /* Release MyInsta-Offline */,
+				D58970302D8F4C8A008E960A /* Release MyInsta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release MyInsta";
 		};
 /* End XCConfigurationList section */
 

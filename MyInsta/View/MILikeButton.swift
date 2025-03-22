@@ -20,6 +20,7 @@ struct MILikeButton: View {
                     .foregroundColor(isLiked ? MIConstants.Colors.likeButton : MIConstants.Colors.primary)
                 Text(likeCount.formatCount())
                     .font(MIConstants.Fonts.caption)
+                    .foregroundColor(MIConstants.Colors.primary)
             }
         }
     }

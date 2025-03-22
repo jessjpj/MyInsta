@@ -20,15 +20,16 @@ struct MIMediaPaginator: View {
                 }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-            
-            HStack(spacing: MIConstants.smallPadding) {
-                ForEach(media.indices, id: \.self) { index in
-                    Circle()
-                        .fill(index == currentIndex ? MIConstants.Colors.primary : MIConstants.Colors.secondary)
-                        .frame(width: MIConstants.Sizes.paginationDot, height: MIConstants.Sizes.paginationDot)
+            if media.count > 1 {
+                HStack(spacing: MIConstants.smallPadding) {
+                    ForEach(media.indices, id: \.self) { index in
+                        Circle()
+                            .fill(index == currentIndex ? MIConstants.Colors.primary : MIConstants.Colors.secondary)
+                            .frame(width: MIConstants.Sizes.paginationDot, height: MIConstants.Sizes.paginationDot)
+                    }
                 }
+                .padding(.bottom, MIConstants.smallPadding)
             }
-            .padding(.bottom, MIConstants.smallPadding)
         }
     }
 }

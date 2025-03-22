@@ -54,7 +54,5 @@ struct MIPostView: View {
         }
         .padding(.vertical, MIConstants.padding)
         .background(MIConstants.Colors.background)
-        .cornerRadius(MIConstants.cornerRadius)
-        .shadow(radius: MIConstants.shadowRadius)
     }
 }

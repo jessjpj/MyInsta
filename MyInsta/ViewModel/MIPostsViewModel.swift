@@ -17,7 +17,7 @@ class MIPostsViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     private let dataService: MIDataService
     
-    init(dataService: MIDataService) {
+    init(dataService: MIDataService, cacheManager: MICacheManagerProtocol = MICacheManager.shared) {
         self.dataService = dataService
         fetchPosts()
     }
@@ -25,7 +25,12 @@ class MIPostsViewModel: ObservableObject {
     func fetchPosts() {
         isLoading = true
         errorMessage = nil
-        
+
+        if let cachedPosts = MICacheManager.shared.loadPosts() {
+            self.posts = cachedPosts
+            self.isLoaded = true
+        }
+
         dataService.fetchPosts()
             .receive(on: DispatchQueue.main)
             .sink(
@@ -41,6 +46,7 @@ class MIPostsViewModel: ObservableObject {
                 receiveValue: { [weak self] posts in
                     self?.isLoaded = true
                     self?.posts = posts
+                    MICacheManager.shared.savePosts(posts)
                 }
             )
             .store(in: &cancellables)

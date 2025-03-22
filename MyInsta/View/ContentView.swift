@@ -10,9 +10,13 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var viewModel: MIPostsViewModel
     
-    init() {
-        let service: MIDataService = MIFirestoreService() // Switch to JSONService() for offline mode
-        _viewModel = StateObject(wrappedValue: MIPostsViewModel(dataService: service))
+    init(viewModel: StateObject<MIPostsViewModel>?, cacheManager: MICacheManagerProtocol) {
+        if let viewModel = viewModel {
+            _viewModel = viewModel
+        } else {
+            let service: MIDataService = MIDataServiceSelector().decideDataService()
+            _viewModel = StateObject(wrappedValue: MIPostsViewModel(dataService: service, cacheManager: cacheManager))
+        }
     }
     
     var body: some View {
@@ -23,12 +27,14 @@ struct ContentView: View {
                         MIPostView(post: post)
                     }
                 }
-                .padding(.horizontal, MIConstants.padding)
             }
             .refreshable {
-                await viewModel.fetchPosts()
+                viewModel.fetchPosts()
             }
-            .navigationTitle(MIConstants.appName)
+            .navigationBarItems(leading:
+                                    Text(MIConstants.appName)
+                .font(MIConstants.Fonts.titleItalic)
+            )
             .navigationBarTitleDisplayMode(.inline)
             .overlay(
                 Group {
@@ -46,5 +52,16 @@ struct ContentView: View {
                 Text(viewModel.errorMessage ?? MIConstants.unknownError)
             }
         }
+        .onAppear {
+            viewModel.fetchPosts()
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        let mockService = MIMockDataService()
+        let viewModel = StateObject(wrappedValue: MIPostsViewModel(dataService: mockService))
+        ContentView(viewModel: viewModel, cacheManager: MICacheManager.shared)
     }
 }

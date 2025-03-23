@@ -6,7 +6,6 @@
 //
 
 import FirebaseFirestore
-import FirebaseFirestoreCombineSwift
 import Combine
 
 class MIFirestoreService: MIDataService {

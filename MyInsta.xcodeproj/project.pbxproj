@@ -43,6 +43,8 @@
 		D589703A2D8FC7DC008E960A /* MIPostsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970392D8FC7DC008E960A /* MIPostsViewModelTests.swift */; };
 		D589703C2D8FC863008E960A /* MICacheManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589703B2D8FC863008E960A /* MICacheManagerTests.swift */; };
 		D589703E2D8FDC77008E960A /* MICoreDataCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589703D2D8FDC77008E960A /* MICoreDataCacheManager.swift */; };
+		D594E5412D908D8C00641B0B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D594E5402D908D8C00641B0B /* FirebaseFirestore */; };
+		D594E5432D908D9500641B0B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D594E5422D908D9500641B0B /* SDWebImageSwiftUI */; };
 		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
 		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
 		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
@@ -130,6 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D594E5432D908D9500641B0B /* SDWebImageSwiftUI in Frameworks */,
+				D594E5412D908D8C00641B0B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +236,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		D594E47E2D90132400641B0B /* Frameworks */ = {
+		D594E53F2D908D8C00641B0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -246,7 +250,7 @@
 				D5A2D9872D8DEB77000F5DA9 /* MyInstaTests */,
 				D5A2D9912D8DEB77000F5DA9 /* MyInstaUITests */,
 				D5A2D96F2D8DEB76000F5DA9 /* Products */,
-				D594E47E2D90132400641B0B /* Frameworks */,
+				D594E53F2D908D8C00641B0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -327,6 +331,8 @@
 			);
 			name = MyInsta;
 			packageProductDependencies = (
+				D594E5402D908D8C00641B0B /* FirebaseFirestore */,
+				D594E5422D908D9500641B0B /* SDWebImageSwiftUI */,
 			);
 			productName = MyInsta;
 			productReference = D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */;
@@ -401,6 +407,8 @@
 			);
 			mainGroup = D5A2D9652D8DEB76000F5DA9;
 			packageReferences = (
+				D594E5392D9089FA00641B0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D594E53C2D908A0D00641B0B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = D5A2D96F2D8DEB76000F5DA9 /* Products */;
 			projectDirPath = "";
@@ -1135,6 +1143,38 @@
 			defaultConfigurationName = "Release MyInsta";
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D594E5392D9089FA00641B0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+		D594E53C2D908A0D00641B0B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D594E5402D908D8C00641B0B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D594E5392D9089FA00641B0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D594E5422D908D9500641B0B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D594E53C2D908A0D00641B0B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */ = {

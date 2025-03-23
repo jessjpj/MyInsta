@@ -15,7 +15,6 @@ class MICoreDataCacheManager: MICacheManagerProtocol {
         self.context = context
     }
     func savePosts(_ posts: [MIPost]) {
-        // Clear existing posts before saving new ones
         clearCache()
         
         for post in posts {
@@ -65,7 +64,6 @@ class MICoreDataCacheManager: MICacheManagerProtocol {
         do {
             let postEntities = try context.fetch(fetchRequest)
             let posts = postEntities.map { postEntity in
-                // Convert PostEntity to MIPost
                 let user = MIUser(
                     id: postEntity.user?.id ?? "",
                     name: postEntity.user?.name ?? "",

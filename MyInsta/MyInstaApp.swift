@@ -14,7 +14,7 @@ struct MyInstaApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: nil, cacheManager: MICacheManager.shared)
+            ContentView(viewModel: nil, cacheManager: MICoreDataCacheManager(context: persistenceController.container.viewContext))
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .onAppear {
                     if ProcessInfo.processInfo.arguments.contains("UITesting") {

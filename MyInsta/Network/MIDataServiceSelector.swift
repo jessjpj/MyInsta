@@ -10,7 +10,7 @@ import Foundation
 class MIDataServiceSelector {
     func decideDataService() -> MIDataService {
         #if MIOFFLINE
-            return JSONService()
+            return MIJSONService()
         #endif
             return MIFirestoreService()
     }

@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class JSONService: MIDataService {
+class MIJSONService: MIDataService {
     func fetchPosts() -> AnyPublisher<[MIPost], Error> {
         guard let postsContainer = MIJSONLoader.loadJSON(filename: "Posts", as: MIPostsContainer.self) else {
             return Fail(error: NSError(domain: "", code: -1, userInfo: nil)).eraseToAnyPublisher()

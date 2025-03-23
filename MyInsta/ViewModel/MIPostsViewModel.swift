@@ -16,9 +16,11 @@ class MIPostsViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     private let dataService: MIDataService
+    private let cacheManager: MICacheManagerProtocol
     
     init(dataService: MIDataService, cacheManager: MICacheManagerProtocol = MICacheManager.shared) {
         self.dataService = dataService
+        self.cacheManager = cacheManager
         fetchPosts()
     }
     
@@ -26,7 +28,7 @@ class MIPostsViewModel: ObservableObject {
         isLoading = true
         errorMessage = nil
 
-        if let cachedPosts = MICacheManager.shared.loadPosts() {
+        if let cachedPosts = cacheManager.loadPosts() {
             self.posts = cachedPosts
             self.isLoaded = true
         }
@@ -46,7 +48,7 @@ class MIPostsViewModel: ObservableObject {
                 receiveValue: { [weak self] posts in
                     self?.isLoaded = true
                     self?.posts = posts
-                    MICacheManager.shared.savePosts(posts)
+                    self?.cacheManager.savePosts(posts)
                 }
             )
             .store(in: &cancellables)

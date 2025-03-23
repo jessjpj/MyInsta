@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MIMedia: Codable {
+struct MIMedia: Codable, Equatable {
     let url: String
     let type: String
     let resolution: String

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MIComment: Codable {
+struct MIComment: Codable, Equatable {
     let user: MIUser
     let text: String
 }

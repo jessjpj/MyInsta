@@ -16,6 +16,19 @@ struct MyInstaApp: App {
         WindowGroup {
             ContentView(viewModel: nil, cacheManager: MICacheManager.shared)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .onAppear {
+                    if ProcessInfo.processInfo.arguments.contains("UITesting") {
+                        let mockDataService = MIMockDataService()
+                        let mockCacheManager = MIMockCacheManager()
+                        if ProcessInfo.processInfo.arguments.contains("SimulateError") {
+                            mockDataService.shouldFail = true
+                        } else {
+                            mockDataService.mockPosts = mockDataService.generateMockData()
+                        }
+                        let viewModel = MIPostsViewModel(dataService: mockDataService, cacheManager: mockCacheManager)
+                        ContentView(viewModel: StateObject(wrappedValue: viewModel), cacheManager: mockCacheManager)
+                    }
+                }
         }
     }
 }

@@ -48,6 +48,8 @@
 		D58970342D8F51E1008E960A /* MICacheManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */; };
 		D58970362D8F52A2008E960A /* MIMockCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970352D8F52A2008E960A /* MIMockCacheManager.swift */; };
 		D58970382D8F5A22008E960A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58970372D8F5A22008E960A /* Launch Screen.storyboard */; };
+		D589703A2D8FC7DC008E960A /* MIPostsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58970392D8FC7DC008E960A /* MIPostsViewModelTests.swift */; };
+		D589703C2D8FC863008E960A /* MICacheManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589703B2D8FC863008E960A /* MICacheManagerTests.swift */; };
 		D5A2D9722D8DEB76000F5DA9 /* MyInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */; };
 		D5A2D9742D8DEB76000F5DA9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */; };
 		D5A2D9772D8DEB76000F5DA9 /* MyInsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5A2D9752D8DEB76000F5DA9 /* MyInsta.xcdatamodeld */; };
@@ -111,6 +113,8 @@
 		D58970332D8F51E1008E960A /* MICacheManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICacheManagerProtocol.swift; sourceTree = "<group>"; };
 		D58970352D8F52A2008E960A /* MIMockCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIMockCacheManager.swift; sourceTree = "<group>"; };
 		D58970372D8F5A22008E960A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D58970392D8FC7DC008E960A /* MIPostsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIPostsViewModelTests.swift; sourceTree = "<group>"; };
+		D589703B2D8FC863008E960A /* MICacheManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICacheManagerTests.swift; sourceTree = "<group>"; };
 		D5A2D96E2D8DEB76000F5DA9 /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2D9712D8DEB76000F5DA9 /* MyInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaApp.swift; sourceTree = "<group>"; };
 		D5A2D9732D8DEB76000F5DA9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -296,6 +300,8 @@
 			isa = PBXGroup;
 			children = (
 				D5A2D9882D8DEB77000F5DA9 /* MyInstaTests.swift */,
+				D58970392D8FC7DC008E960A /* MIPostsViewModelTests.swift */,
+				D589703B2D8FC863008E960A /* MICacheManagerTests.swift */,
 			);
 			path = MyInstaTests;
 			sourceTree = "<group>";
@@ -498,7 +504,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D589703A2D8FC7DC008E960A /* MIPostsViewModelTests.swift in Sources */,
 				D5A2D9892D8DEB77000F5DA9 /* MyInstaTests.swift in Sources */,
+				D589703C2D8FC863008E960A /* MICacheManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +641,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -654,6 +663,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -734,6 +744,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyInsta/Preview Content\"";
 				DEVELOPMENT_TEAM = V4LX3C2AL4;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -767,6 +778,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -788,6 +801,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -967,6 +982,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyInsta/Preview Content\"";
 				DEVELOPMENT_TEAM = V4LX3C2AL4;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -1000,6 +1016,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -1022,6 +1039,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -1043,6 +1062,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -1064,6 +1084,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4LX3C2AL4;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
